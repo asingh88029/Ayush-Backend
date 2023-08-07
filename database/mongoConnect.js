@@ -10,8 +10,6 @@ class MongoConnect {
       await mongoose.connect(this.databaseURL, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useCreateIndex: true,
-        useFindAndModify: false,
       });
       console.log('Connected to MongoDB');
     } catch (error) {

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const MongoConnect = require('./database/mongoConnect'); // Replace with the correct path
@@ -63,7 +65,6 @@ class Server {
     try {
       // Connect to MongoDB
       await this.dbConnector.connect();
-      console.log('Connected to MongoDB');
 
       // Start the server
       this.serverInstance = this.app.listen(this.port, () => {
