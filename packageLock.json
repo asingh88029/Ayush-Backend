@@ -1,0 +1,9 @@
+
+  class package-lock {
+    constructor() {
+      // Implement class constructor here
+    }
+  }
+  
+  module.exports = package-lock;
+    
