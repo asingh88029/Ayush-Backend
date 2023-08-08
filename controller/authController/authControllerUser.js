@@ -46,7 +46,7 @@ class AuthControllerUser {
     }
   }
 
-   verifyOtp = async (req, res) =>{
+  verifyOtp = async (req, res) => {
     try {
       const { requestId, enteredOtp } = req.body;
 

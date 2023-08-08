@@ -1,0 +1,82 @@
+[
+    {
+        "_id": "61799df6d6b9b4b8e9a87b21",
+        "hospitalID": "61799df6d6b9b4b8e9a87a11",
+        "state": "California",
+        "city": "Los Angeles",
+        "pinCode": "90001",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b22",
+        "hospitalID": "61799df6d6b9b4b8e9a87a12",
+        "state": "New York",
+        "city": "Manhattan",
+        "pinCode": "10001",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b23",
+        "hospitalID": "61799df6d6b9b4b8e9a87a13",
+        "state": "California",
+        "city": "Los Angeles",
+        "pinCode": "90002",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b24",
+        "hospitalID": "61799df6d6b9b4b8e9a87a14",
+        "state": "California",
+        "city": "San Francisco",
+        "pinCode": "94102",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b25",
+        "hospitalID": "61799df6d6b9b4b8e9a87a15",
+        "state": "Texas",
+        "city": "Houston",
+        "pinCode": "77001",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b26",
+        "hospitalID": "61799df6d6b9b4b8e9a87a16",
+        "state": "Florida",
+        "city": "Miami",
+        "pinCode": "33101",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b27",
+        "hospitalID": "61799df6d6b9b4b8e9a87a17",
+        "state": "California",
+        "city": "Los Angeles",
+        "pinCode": "90003",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b28",
+        "hospitalID": "61799df6d6b9b4b8e9a87a18",
+        "state": "New York",
+        "city": "Albany",
+        "pinCode": "12201",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b29",
+        "hospitalID": "61799df6d6b9b4b8e9a87a19",
+        "state": "Texas",
+        "city": "Dallas",
+        "pinCode": "75201",
+        "country": "USA"
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87b30",
+        "hospitalID": "61799df6d6b9b4b8e9a87a20",
+        "state": "California",
+        "city": "San Diego",
+        "pinCode": "92101",
+        "country": "USA"
+    }
+]

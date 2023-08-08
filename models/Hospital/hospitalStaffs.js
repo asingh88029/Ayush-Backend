@@ -4,7 +4,7 @@ const hospitalStaffsSchema = new mongoose.Schema({
   firstName: String,
   lastName: String,
   hospitalID: { type: mongoose.Schema.Types.ObjectId, ref: 'Hospital' },
-  role: { type: String, enum: ['Admin', 'Doctor'] },
+  role: { type: String, enum: ['Admin', 'Doctor','Staff'] },
   mobileNumber: String,
   _id: mongoose.Schema.Types.ObjectId,
 });

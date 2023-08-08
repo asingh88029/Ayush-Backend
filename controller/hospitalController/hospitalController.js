@@ -1,12 +1,33 @@
-class HospitalController {
-    getNearbyHospitals(req, res) {
-        const { latitude, longitude } = req.query;
+const HospitalService = require("../../service/hospitalService/hospitalService")
 
-        // Implement logic to get nearby hospitals based on latitude and longitude
-        if (latitude && longitude) {
-            res.send(`Get nearby hospitals based on latitude: ${latitude}, longitude: ${longitude}`);
-        } else {
-            res.send('Get nearby hospitals without specific location');
+class HospitalController {
+
+    constructor() {
+        this.hospitalService = new HospitalService()
+    }
+
+    getNearbyHospitals = async (req, res) => {
+        try {
+            const { latitude, longitude, maxDistance = 1000, limit = 10, page = 1, flag = "m" } = req.query;
+
+            if (!latitude || !longitude) {
+                return res.status(400).json({ message: "Missing required parameters" });
+            }
+
+            const nearbyHospitals = await this.hospitalService.getNearbyHospital(
+                parseFloat(latitude),
+                parseFloat(longitude),
+                parseFloat(maxDistance),
+                parseInt(limit),
+                parseInt(page),
+                flag
+            );
+
+
+
+            res.json(nearbyHospitals);
+        } catch (error) {
+            res.status(500).json({ message: "Error fetching nearby hospitals", error: error.message });
         }
     }
 

@@ -34,11 +34,7 @@ class AuthServiceUser {
       if (!user) {
         return false
       }
-
       const token = await this.createBearerToken(user);
-
-
-
       return token;
     } catch (error) {
       throw new Error('Failed to verify OTP');

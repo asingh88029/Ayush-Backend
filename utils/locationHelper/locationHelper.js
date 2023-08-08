@@ -43,7 +43,7 @@ class LocationHelper {
     filterLocationsByDistance(locations, lat, lon, distanceLimit) {
         return locations
             .map((location) => {
-                const { distance, direction, cardinalDirection } = this.calculateDistanceAndDirection(lat, lon, location.latitude, location.longitude);
+                const { distance, direction, cardinalDirection } = this.calculateDistanceAndDirection(lat, lon, location.coordinateX, location.coordinateY);
                 return { ...location, distance, direction, cardinalDirection };
             })
             .filter((location) => location.distance <= distanceLimit);

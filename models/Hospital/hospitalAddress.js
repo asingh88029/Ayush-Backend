@@ -9,6 +9,6 @@ const hospitalAddressSchema = new mongoose.Schema({
   country: { type: String, required: true },
 });
 
-const HospitalAddressModel = mongoose.model('HospitalAddress', hospitalAddressSchema);
+const HospitalAddressModel = mongoose.model('hospitalAddresses', hospitalAddressSchema);
 
 module.exports = HospitalAddressModel;

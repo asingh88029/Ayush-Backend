@@ -1,0 +1,55 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AYUSH",
+    "dateExported": "2023-08-08T12:19:34.649Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "cb3d501a-aa52-4f70-b40a-8f6b673dd15c",
+            "name": "Auth",
+            "containerId": "",
+            "created": "2023-08-07T20:54:41.386Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6509dec4-8d8b-4bfd-8fb1-5b02b154ebdf",
+            "colId": "44551073-fe80-4f69-9709-6d2823acaaca",
+            "containerId": "cb3d501a-aa52-4f70-b40a-8f6b673dd15c",
+            "name": "login",
+            "url": "http://localhost:3000/api/v1/user/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-07T20:57:51.631Z",
+            "modified": "2023-08-07T20:59:06.750Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"mobileNumber\" : \"8092717454\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "496ecc16-eb38-4532-82ab-0a7b6840c1f6",
+            "colId": "44551073-fe80-4f69-9709-6d2823acaaca",
+            "containerId": "cb3d501a-aa52-4f70-b40a-8f6b673dd15c",
+            "name": "verify Token",
+            "url": "http://localhost:3000/api/v1/user/confirmOtp",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-08-07T21:19:21.993Z",
+            "modified": "2023-08-07T21:32:35.864Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"requestId\" : \"\",\n  \"enteredOtp\" : \"\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

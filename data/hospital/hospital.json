@@ -1,0 +1,122 @@
+[
+    {
+        "_id": "61799df6d6b9b4b8e9a87a11",
+        "name": "ABC Hospital",
+        "coordinateX": 123.456,
+        "coordinateY": 456.789,
+        "hospitalType": "Homeopathy",
+        "mobileNumber": "123-456-7890",
+        "specialities": [
+            "Cardiology",
+            "Orthopedics"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a12",
+        "name": "XYZ Medical Center",
+        "coordinateX": 789.123,
+        "coordinateY": 234.567,
+        "hospitalType": "Siddha",
+        "mobileNumber": "987-654-3210",
+        "specialities": [
+            "Oncology",
+            "Neurology"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a13",
+        "name": "City General Hospital",
+        "coordinateX": 234.567,
+        "coordinateY": 678.901,
+        "hospitalType": "Unani",
+        "mobileNumber": "111-222-3333",
+        "specialities": [
+            "Emergency Medicine",
+            "Pediatrics"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a14",
+        "name": "Sunrise Clinic",
+        "coordinateX": 456.789,
+        "coordinateY": 890.123,
+        "hospitalType": "Yoga",
+        "mobileNumber": "555-666-7777",
+        "specialities": [
+            "Dermatology",
+            "ENT"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a15",
+        "name": "Green Heart Hospital",
+        "coordinateX": 345.678,
+        "coordinateY": 123.456,
+        "hospitalType": "Naturopathy",
+        "mobileNumber": "888-999-0000",
+        "specialities": [
+            "Cardiology",
+            "Internal Medicine"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a16",
+        "name": "Wellness Medical Center",
+        "coordinateX": 678.901,
+        "coordinateY": 789.012,
+        "hospitalType": "Ayurveda",
+        "mobileNumber": "444-555-6666",
+        "specialities": [
+            "Psychiatry",
+            "Rehabilitation"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a17",
+        "name": "Bright Eyes Clinic",
+        "coordinateX": 890.123,
+        "coordinateY": 234.567,
+        "hospitalType": "Naturopathy",
+        "mobileNumber": "777-888-9999",
+        "specialities": [
+            "Ophthalmology",
+            "Optometry"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a18",
+        "name": "Hope Medical Center",
+        "coordinateX": 123.456,
+        "coordinateY": 345.678,
+        "hospitalType": "Siddha",
+        "mobileNumber": "222-333-4444",
+        "specialities": [
+            "Oncology",
+            "Radiology"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a19",
+        "name": "Sunny Side Hospital",
+        "coordinateX": 789.012,
+        "coordinateY": 456.789,
+        "hospitalType": "Homeopathy",
+        "mobileNumber": "666-777-8888",
+        "specialities": [
+            "Orthopedics",
+            "Neurology"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87a20",
+        "name": "Rainbow Medical Clinic",
+        "coordinateX": 456.789,
+        "coordinateY": 678.901,
+        "hospitalType": "Ayurveda",
+        "mobileNumber": "333-444-5555",
+        "specialities": [
+            "Pediatrics",
+            "Dentistry"
+        ]
+    }
+]

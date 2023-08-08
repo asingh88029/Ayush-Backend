@@ -1,0 +1,482 @@
+[
+    {
+        "_id": "61799df6d6b9b4b8e9a87c31",
+        "hospitalID": "61799df6d6b9b4b8e9a87a11",
+        "noOfBeds": 200,
+        "activePatients": 50,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 75,
+        "images": [
+            "image1.jpg",
+            "image2.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c32",
+        "hospitalID": "61799df6d6b9b4b8e9a87a12",
+        "noOfBeds": 150,
+        "activePatients": 30,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 60,
+        "images": [
+            "image3.jpg",
+            "image4.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c33",
+        "hospitalID": "61799df6d6b9b4b8e9a87a13",
+        "noOfBeds": 180,
+        "activePatients": 40,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 55,
+        "images": [
+            "image5.jpg",
+            "image6.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c34",
+        "hospitalID": "61799df6d6b9b4b8e9a87a14",
+        "noOfBeds": 120,
+        "activePatients": 20,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 45,
+        "images": [
+            "image7.jpg",
+            "image8.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c35",
+        "hospitalID": "61799df6d6b9b4b8e9a87a15",
+        "noOfBeds": 220,
+        "activePatients": 60,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 80,
+        "images": [
+            "image9.jpg",
+            "image10.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c36",
+        "hospitalID": "61799df6d6b9b4b8e9a87a16",
+        "noOfBeds": 190,
+        "activePatients": 45,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 65,
+        "images": [
+            "image11.jpg",
+            "image12.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c37",
+        "hospitalID": "61799df6d6b9b4b8e9a87a17",
+        "noOfBeds": 170,
+        "activePatients": 35,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 70,
+        "images": [
+            "image13.jpg",
+            "image14.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c38",
+        "hospitalID": "61799df6d6b9b4b8e9a87a18",
+        "noOfBeds": 130,
+        "activePatients": 25,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 40,
+        "images": [
+            "image15.jpg",
+            "image16.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c39",
+        "hospitalID": "61799df6d6b9b4b8e9a87a19",
+        "noOfBeds": 240,
+        "activePatients": 55,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 85,
+        "images": [
+            "image17.jpg",
+            "image18.jpg"
+        ]
+    },
+    {
+        "_id": "61799df6d6b9b4b8e9a87c40",
+        "hospitalID": "61799df6d6b9b4b8e9a87a20",
+        "noOfBeds": 160,
+        "activePatients": 40,
+        "activeDays": [
+            {
+                "day": "Sunday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Saturday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 50,
+        "images": [
+            "image19.jpg",
+            "image20.jpg"
+        ]
+    }
+]

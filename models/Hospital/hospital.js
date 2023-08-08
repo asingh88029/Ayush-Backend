@@ -10,6 +10,6 @@ const hospitalSchema = new mongoose.Schema({
   specialities: [{ type: String }],
 });
 
-const HospitalModel = mongoose.model('Hospital', hospitalSchema);
+const HospitalModel = mongoose.model('hospitals', hospitalSchema);
 
 module.exports = HospitalModel;
