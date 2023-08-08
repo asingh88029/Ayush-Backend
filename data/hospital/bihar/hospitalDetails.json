@@ -1,0 +1,172 @@
+[
+    {
+        "_id": {
+            "$oid": "617b081a8f20d0c1873f2811"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2811"
+        },
+        "noOfBeds": 150,
+        "activePatients": 30,
+        "activeDays": [
+            {
+                "day": "Monday",
+                "openingTime": "09:00 AM",
+                "closingTime": "05:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "09:00 AM",
+                "closingTime": "05:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "09:00 AM",
+                "closingTime": "05:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "09:00 AM",
+                "closingTime": "05:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "09:00 AM",
+                "closingTime": "05:00 PM"
+            }
+        ],
+        "noOfStaffs": 50,
+        "images": [
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "617b081a8f20d0c1873f2812"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2812"
+        },
+        "noOfBeds": 100,
+        "activePatients": 20,
+        "activeDays": [
+            {
+                "day": "Monday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "08:00 AM",
+                "closingTime": "06:00 PM"
+            }
+        ],
+        "noOfStaffs": 40,
+        "images": [
+            "image4.jpg",
+            "image5.jpg"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "617b081a8f20d0c1873f2813"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2813"
+        },
+        "noOfBeds": 200,
+        "activePatients": 50,
+        "activeDays": [
+            {
+                "day": "Monday",
+                "openingTime": "10:00 AM",
+                "closingTime": "08:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "10:00 AM",
+                "closingTime": "08:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "10:00 AM",
+                "closingTime": "08:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "10:00 AM",
+                "closingTime": "08:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "10:00 AM",
+                "closingTime": "08:00 PM"
+            }
+        ],
+        "noOfStaffs": 60,
+        "images": [
+            "image6.jpg",
+            "image7.jpg",
+            "image8.jpg"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "617b081a8f20d0c1873f2814"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2814"
+        },
+        "noOfBeds": 120,
+        "activePatients": 25,
+        "activeDays": [
+            {
+                "day": "Monday",
+                "openingTime": "07:00 AM",
+                "closingTime": "04:00 PM"
+            },
+            {
+                "day": "Tuesday",
+                "openingTime": "07:00 AM",
+                "closingTime": "04:00 PM"
+            },
+            {
+                "day": "Wednesday",
+                "openingTime": "07:00 AM",
+                "closingTime": "04:00 PM"
+            },
+            {
+                "day": "Thursday",
+                "openingTime": "07:00 AM",
+                "closingTime": "04:00 PM"
+            },
+            {
+                "day": "Friday",
+                "openingTime": "07:00 AM",
+                "closingTime": "04:00 PM"
+            }
+        ],
+        "noOfStaffs": 30,
+        "images": [
+            "image9.jpg",
+            "image10.jpg"
+        ]
+    }
+]

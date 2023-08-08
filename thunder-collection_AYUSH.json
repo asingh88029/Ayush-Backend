@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "AYUSH",
-    "dateExported": "2023-08-08T12:19:34.649Z",
+    "dateExported": "2023-08-08T16:47:55.166Z",
     "version": "1.1",
     "folders": [
         {
@@ -10,6 +10,13 @@
             "containerId": "",
             "created": "2023-08-07T20:54:41.386Z",
             "sortNum": 10000
+        },
+        {
+            "_id": "de78104f-4093-4b8b-ab72-2758a99b9e1b",
+            "name": "Hospital",
+            "containerId": "",
+            "created": "2023-08-08T16:45:38.542Z",
+            "sortNum": 20000
         }
     ],
     "requests": [
@@ -49,6 +56,41 @@
                 "raw": "{\n  \"requestId\" : \"\",\n  \"enteredOtp\" : \"\"\n}",
                 "form": []
             },
+            "tests": []
+        },
+        {
+            "_id": "63c1fc06-8be3-4123-bbd0-2c45ef9fa4ff",
+            "colId": "44551073-fe80-4f69-9709-6d2823acaaca",
+            "containerId": "de78104f-4093-4b8b-ab72-2758a99b9e1b",
+            "name": "getNearBYHospital",
+            "url": "http://localhost:3000/api/v1/hospital/nearby?latitude=85.25&&longitude=25.137566&&maxDistance=100&&flag=h",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-08-08T16:45:47.900Z",
+            "modified": "2023-08-08T16:45:59.275Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "latitude",
+                    "value": "85.25",
+                    "isPath": false
+                },
+                {
+                    "name": "longitude",
+                    "value": "25.137566",
+                    "isPath": false
+                },
+                {
+                    "name": "maxDistance",
+                    "value": "100",
+                    "isPath": false
+                },
+                {
+                    "name": "flag",
+                    "value": "h",
+                    "isPath": false
+                }
+            ],
             "tests": []
         }
     ]

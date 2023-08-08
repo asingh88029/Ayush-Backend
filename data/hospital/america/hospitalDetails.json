@@ -1,7 +1,11 @@
 [
     {
-        "_id": "61799df6d6b9b4b8e9a87c31",
-        "hospitalID": "61799df6d6b9b4b8e9a87a11",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c31"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a11"
+        },
         "noOfBeds": 200,
         "activePatients": 50,
         "activeDays": [
@@ -48,8 +52,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c32",
-        "hospitalID": "61799df6d6b9b4b8e9a87a12",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c32"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a12"
+        },
         "noOfBeds": 150,
         "activePatients": 30,
         "activeDays": [
@@ -96,8 +104,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c33",
-        "hospitalID": "61799df6d6b9b4b8e9a87a13",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c33"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a13"
+        },
         "noOfBeds": 180,
         "activePatients": 40,
         "activeDays": [
@@ -144,8 +156,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c34",
-        "hospitalID": "61799df6d6b9b4b8e9a87a14",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c34"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a14"
+        },
         "noOfBeds": 120,
         "activePatients": 20,
         "activeDays": [
@@ -192,8 +208,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c35",
-        "hospitalID": "61799df6d6b9b4b8e9a87a15",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c35"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a15"
+        },
         "noOfBeds": 220,
         "activePatients": 60,
         "activeDays": [
@@ -240,8 +260,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c36",
-        "hospitalID": "61799df6d6b9b4b8e9a87a16",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c36"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a16"
+        },
         "noOfBeds": 190,
         "activePatients": 45,
         "activeDays": [
@@ -288,8 +312,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c37",
-        "hospitalID": "61799df6d6b9b4b8e9a87a17",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c37"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a17"
+        },
         "noOfBeds": 170,
         "activePatients": 35,
         "activeDays": [
@@ -336,8 +364,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c38",
-        "hospitalID": "61799df6d6b9b4b8e9a87a18",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c38"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a18"
+        },
         "noOfBeds": 130,
         "activePatients": 25,
         "activeDays": [
@@ -384,8 +416,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c39",
-        "hospitalID": "61799df6d6b9b4b8e9a87a19",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c39"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a19"
+        },
         "noOfBeds": 240,
         "activePatients": 55,
         "activeDays": [
@@ -432,8 +468,12 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87c40",
-        "hospitalID": "61799df6d6b9b4b8e9a87a20",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c40"
+        },
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a20"
+        },
         "noOfBeds": 160,
         "activePatients": 40,
         "activeDays": [

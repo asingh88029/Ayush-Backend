@@ -1,0 +1,122 @@
+[
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c41"
+        },
+        "firstName": "AdminFirstName1",
+        "lastName": "AdminLastName1",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a11"
+        },
+        "role": "Admin",
+        "mobileNumber": "123-456-7890"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c42"
+        },
+        "firstName": "AdminFirstName2",
+        "lastName": "AdminLastName2",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a12"
+        },
+        "role": "Admin",
+        "mobileNumber": "987-654-3210"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c43"
+        },
+        "firstName": "AdminFirstName3",
+        "lastName": "AdminLastName3",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a13"
+        },
+        "role": "Admin",
+        "mobileNumber": "111-222-3333"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c44"
+        },
+        "firstName": "AdminFirstName4",
+        "lastName": "AdminLastName4",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a14"
+        },
+        "role": "Admin",
+        "mobileNumber": "555-666-7777"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c45"
+        },
+        "firstName": "AdminFirstName5",
+        "lastName": "AdminLastName5",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a15"
+        },
+        "role": "Admin",
+        "mobileNumber": "888-999-0000"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c46"
+        },
+        "firstName": "AdminFirstName6",
+        "lastName": "AdminLastName6",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a16"
+        },
+        "role": "Admin",
+        "mobileNumber": "444-555-6666"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c47"
+        },
+        "firstName": "AdminFirstName7",
+        "lastName": "AdminLastName7",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a17"
+        },
+        "role": "Admin",
+        "mobileNumber": "777-888-9999"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c48"
+        },
+        "firstName": "AdminFirstName8",
+        "lastName": "AdminLastName8",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a18"
+        },
+        "role": "Admin",
+        "mobileNumber": "222-333-4444"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c49"
+        },
+        "firstName": "AdminFirstName9",
+        "lastName": "AdminLastName9",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a19"
+        },
+        "role": "Admin",
+        "mobileNumber": "666-777-8888"
+    },
+    {
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87c50"
+        },
+        "firstName": "AdminFirstName10",
+        "lastName": "AdminLastName10",
+        "hospitalID": {
+            "$oid": "61799df6d6b9b4b8e9a87a20"
+        },
+        "role": "Admin",
+        "mobileNumber": "333-444-5555"
+    }
+]

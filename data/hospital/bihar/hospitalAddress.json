@@ -1,0 +1,50 @@
+[
+    {
+        "_id": {
+            "$oid": "717b081a8f20d0c1873b2911"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2811"
+        },
+        "state": "Bihar",
+        "city": "Patna",
+        "pinCode": "800013",
+        "country": "India"
+    },
+    {
+        "_id": {
+            "$oid": "727b081a8f20d0c1873b2912"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2812"
+        },
+        "state": "Bihar",
+        "city": "Patna",
+        "pinCode": "800020",
+        "country": "India"
+    },
+    {
+        "_id": {
+            "$oid": "737b081a8f20d0c1873b2913"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2813"
+        },
+        "state": "Bihar",
+        "city": "Patna",
+        "pinCode": "800014",
+        "country": "India"
+    },
+    {
+        "_id": {
+            "$oid": "747b081a8f20d0c1873b2914"
+        },
+        "hospitalID": {
+            "$oid": "617b081a8f20d0c1873b2814"
+        },
+        "state": "Bihar",
+        "city": "Patna",
+        "pinCode": "800002",
+        "country": "India"
+    }
+]

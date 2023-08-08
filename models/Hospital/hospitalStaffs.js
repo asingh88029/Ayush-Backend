@@ -11,6 +11,6 @@ const hospitalStaffsSchema = new mongoose.Schema({
 
 hospitalStaffsSchema.index({ _id: 1, hospitalID: 1 }, { unique: true });
 
-const HospitalStaffsModel = mongoose.model('HospitalStaffs', hospitalStaffsSchema);
+const HospitalStaffsModel = mongoose.model('hospitalstaffs', hospitalStaffsSchema);
 
 module.exports = HospitalStaffsModel;

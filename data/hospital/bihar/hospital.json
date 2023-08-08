@@ -1,0 +1,76 @@
+[
+    {
+      "_id": {
+        "$oid": "617b081a8f20d0c1873b2811"
+      },
+      "name": "Asian City Hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          85.10397642832477,
+          25.6356684064939731
+        ]
+      },
+      "hospitalType": "Ayurvedic",
+      "mobileNumber": "09546496737",
+      "specialities": [
+        "Ayurvedic"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "617b081a8f20d0c1873b2812"
+      },
+      "name": "Ayush Hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          85.12490454784435,
+          25.579390544341774
+        ]
+      },
+      "hospitalType": "Ayurvedic",
+      "mobileNumber": "09546496737",
+      "specialities": [
+        "Ayurvedic"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "617b081a8f20d0c1873b2813"
+      },
+      "name": "Paras Hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          85.08244126724345,
+          25.606054260216503
+        ]
+      },
+      "hospitalType": "Homeopathy",
+      "mobileNumber": "08929076237",
+      "specialities": [
+        "Homeopathy"
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "617b081a8f20d0c1873b2814"
+      },
+      "name": "Bone Hospital",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          85.12313040574641,
+          25.578433098915045
+        ]
+      },
+      "hospitalType": "Ayurvedic, Homeopathy",
+      "mobileNumber": "09546496737",
+      "specialities": [
+        "Ayurvedic",
+        "Homeopathy"
+      ]
+    }
+  ]
+  

@@ -1,6 +1,8 @@
 [
     {
-        "_id": "61799df6d6b9b4b8e9a87a11",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a11"
+        },
         "name": "ABC Hospital",
         "coordinateX": 123.456,
         "coordinateY": 456.789,
@@ -12,7 +14,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a12",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a12"
+        },
         "name": "XYZ Medical Center",
         "coordinateX": 789.123,
         "coordinateY": 234.567,
@@ -24,7 +28,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a13",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a13"
+        },
         "name": "City General Hospital",
         "coordinateX": 234.567,
         "coordinateY": 678.901,
@@ -36,7 +42,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a14",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a14"
+        },
         "name": "Sunrise Clinic",
         "coordinateX": 456.789,
         "coordinateY": 890.123,
@@ -48,7 +56,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a15",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a15"
+        },
         "name": "Green Heart Hospital",
         "coordinateX": 345.678,
         "coordinateY": 123.456,
@@ -60,7 +70,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a16",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a16"
+        },
         "name": "Wellness Medical Center",
         "coordinateX": 678.901,
         "coordinateY": 789.012,
@@ -72,7 +84,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a17",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a17"
+        },
         "name": "Bright Eyes Clinic",
         "coordinateX": 890.123,
         "coordinateY": 234.567,
@@ -84,7 +98,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a18",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a18"
+        },
         "name": "Hope Medical Center",
         "coordinateX": 123.456,
         "coordinateY": 345.678,
@@ -96,7 +112,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a19",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a19"
+        },
         "name": "Sunny Side Hospital",
         "coordinateX": 789.012,
         "coordinateY": 456.789,
@@ -108,7 +126,9 @@
         ]
     },
     {
-        "_id": "61799df6d6b9b4b8e9a87a20",
+        "_id": {
+            "$oid": "61799df6d6b9b4b8e9a87a20"
+        },
         "name": "Rainbow Medical Clinic",
         "coordinateX": 456.789,
         "coordinateY": 678.901,

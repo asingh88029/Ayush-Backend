@@ -14,7 +14,7 @@ class HospitalController {
                 return res.status(400).json({ message: "Missing required parameters" });
             }
 
-            const nearbyHospitals = await this.hospitalService.getNearbyHospital(
+            const nearbyHospitals = await this.hospitalService.getNearbyHospitals(
                 parseFloat(latitude),
                 parseFloat(longitude),
                 parseFloat(maxDistance),
