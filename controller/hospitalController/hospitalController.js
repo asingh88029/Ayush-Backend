@@ -38,11 +38,20 @@ class HospitalController {
         res.send(`Get all hospitals with flag: ${flag}, page: ${page}, limit: ${limit}`);
     }
 
-    getHospitalByID(req, res) {
-        const { hospitalID } = req.params;
-
-        // Implement logic to get one hospital by ID
-        res.send(`Get hospital by ID: ${hospitalID}`);
+    getHospitalByID = async (req, res) => {
+        try {
+            const { hospitalID } = req.params;
+    
+            const hospital = await this.hospitalService.getHospitalById(hospitalID);
+    
+            if (hospital) {
+                res.json(hospital);
+            } else {
+                res.status(404).json({ error: 'Hospital not found' });
+            }
+        } catch (error) {
+            res.status(500).json({ error: 'An error occurred while fetching hospital data' });
+        }
     }
 
     getFilteredHospitals(req, res) {

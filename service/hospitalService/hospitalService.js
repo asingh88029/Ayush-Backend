@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const getDistanceMatrix = require("../../utils/distanceMatrix/distanceMatrix")
 
 const Hospital = require("../../models/Hospital/hospital")
 const HospitalDetailsService = require("./hospitalDetailsService"); // Adjust the path to your HospitalDetailsService
@@ -14,9 +15,29 @@ class HospitalService {
 
     async getNearbyHospitals(latitude, longitude, maxDistance, limit, page, flag) {
         const hospitalsNearby = await this.fetchHospitalsNearby(latitude, longitude, maxDistance, limit, page);
-        console.log(hospitalsNearby);
-        const result = await this.processHospitalsData(hospitalsNearby, flag);
+        const res = await this.filterHospitalsByDistance(hospitalsNearby, latitude, longitude, maxDistance);
+        const result = await this.processHospitalsData(res, flag);
         return result;
+    }
+
+    async filterHospitalsByDistance(hospitalsNearby, latitude, longitude, maxDistance) {
+        const origin = latitude + "," + longitude;
+        const res = [];
+        for (let i = 0; i < hospitalsNearby.length; i++) {
+            const hospital = hospitalsNearby[i];
+            const destination = hospital.location.coordinates[0] + "," + hospital.location.coordinates[1];
+            const result = await getDistanceMatrix(origin, destination);
+            try {
+                const distance = result.data.rows[0].elements[0].distance.value;
+                if (distance < maxDistance) {
+                    hospital.distance = distance;
+                    res.push(hospital);
+                }
+            } catch (error) {
+                continue;
+            }
+        }
+        return res;
     }
 
     async fetchHospitalsNearby(latitude, longitude, maxDistance, limit, page) {
@@ -28,7 +49,7 @@ class HospitalService {
                         coordinates: [latitude, longitude]
                     },
                     distanceField: "linearDistance",
-                    maxDistance: maxDistance * 1000, // In Km
+                    maxDistance: maxDistance, // In m
                     spherical: true
                 }
             },
@@ -41,6 +62,7 @@ class HospitalService {
                     hospitalType: 1,
                     mobileNumber: 1,
                     specialities: 1,
+                    location: 1,
                     linearDistance: {
                         $round: [{ $divide: ["$linearDistance", 1000] }, 3] // Convert meters to kilometers and round to 3 decimal places
                     }
@@ -87,7 +109,8 @@ class HospitalService {
             mobileNumber: hospital.mobileNumber,
             linearDistance: hospital.linearDistance,
             direction: hospital.direction,
-            location: hospital.location
+            location: hospital.location,
+            distance: hospital.distance
         };
     }
 
@@ -101,6 +124,31 @@ class HospitalService {
 
     async getHospitalStaffData(hospitalId) {
         return await this.hospitalStaffService.getHospitalStaff(hospitalId);
+    }
+
+    async getHospitalById(hospitalId) {
+        try {
+            const hospital = await Hospital.findById(hospitalId);
+            if (!hospital) {
+                throw new Error('Hospital not found');
+            }
+    
+            const [address, details, staffs] = await Promise.all([
+                this.getAddressData(hospitalId),
+                this.getHospitalDetailsData(hospitalId),
+                this.getHospitalStaffData(hospitalId)
+            ]);
+    
+            return {
+                hospital,
+                address,
+                details,
+                staffs
+            };
+        } catch (error) {
+            throw new Error(`Error fetching hospital data: ${error.message}`);
+        }
+
     }
 }
 

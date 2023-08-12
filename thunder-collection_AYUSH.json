@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "AYUSH",
-    "dateExported": "2023-08-08T16:47:55.166Z",
+    "dateExported": "2023-08-12T14:25:32.809Z",
     "version": "1.1",
     "folders": [
         {
@@ -63,34 +63,48 @@
             "colId": "44551073-fe80-4f69-9709-6d2823acaaca",
             "containerId": "de78104f-4093-4b8b-ab72-2758a99b9e1b",
             "name": "getNearBYHospital",
-            "url": "http://localhost:3000/api/v1/hospital/nearby?latitude=85.25&&longitude=25.137566&&maxDistance=100&&flag=h",
+            "url": "http://localhost:3000/api/v1/hospital/nearby?latitude=25.5940947&longitude=85.1375645&maxDistance=100000&flag=l",
             "method": "GET",
             "sortNum": 30000,
             "created": "2023-08-08T16:45:47.900Z",
-            "modified": "2023-08-08T16:45:59.275Z",
+            "modified": "2023-08-12T14:23:50.535Z",
             "headers": [],
             "params": [
                 {
                     "name": "latitude",
-                    "value": "85.25",
+                    "value": "25.5940947",
                     "isPath": false
                 },
                 {
                     "name": "longitude",
-                    "value": "25.137566",
+                    "value": "85.1375645",
                     "isPath": false
                 },
                 {
                     "name": "maxDistance",
-                    "value": "100",
+                    "value": "100000",
                     "isPath": false
                 },
                 {
                     "name": "flag",
-                    "value": "h",
+                    "value": "l",
                     "isPath": false
                 }
             ],
+            "tests": []
+        },
+        {
+            "_id": "2a9bfee3-ab4e-43c5-a794-0bd777c5c871",
+            "colId": "44551073-fe80-4f69-9709-6d2823acaaca",
+            "containerId": "de78104f-4093-4b8b-ab72-2758a99b9e1b",
+            "name": "getOneHospitalById",
+            "url": "http://localhost:3000/api/v1/hospital/617b081a8f20d0c1873b2812",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-08-12T14:24:02.251Z",
+            "modified": "2023-08-12T14:24:57.620Z",
+            "headers": [],
+            "params": [],
             "tests": []
         }
     ]

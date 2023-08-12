@@ -21,11 +21,9 @@ class AuthControllerUser {
 
       // Generate OTP using the auth service
       const otp = await this.authServiceUser.generateOtp();
-      console.log(otp);
 
       // Send OTP using the auth service
       let requestId = await this.authServiceUser.sendOtp(mobileNumber, otp);
-      console.log(requestId);
 
       // Create a new user or retrieve existing user using the user service
       let user = await this.userService.createUserOrUpdateIfPresent(
