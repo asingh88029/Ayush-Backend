@@ -1,8 +1,8 @@
 var unirest = require("unirest");
 
 class OtpService {
-  constructor(apiKey) {
-    this.apiKey = "GIK5HbRdJleWswpt26hxkjX4FB8ZDcYEiLVaum1oU9gPzyvfrQ6StV2JOZCRzuUYyqh0N7KTcFrWfigv"; // Your Fast2SMS API key
+  constructor() {
+    this.apiKey = process.env.FAST2SMSAPI
     this.apiUrl = 'https://www.fast2sms.com/dev/bulkV2'; // Fast2SMS API URL
   }
 

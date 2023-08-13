@@ -41,9 +41,9 @@ class HospitalController {
     getHospitalByID = async (req, res) => {
         try {
             const { hospitalID } = req.params;
-    
+
             const hospital = await this.hospitalService.getHospitalById(hospitalID);
-    
+
             if (hospital) {
                 res.json(hospital);
             } else {

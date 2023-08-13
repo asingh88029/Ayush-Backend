@@ -132,13 +132,13 @@ class HospitalService {
             if (!hospital) {
                 throw new Error('Hospital not found');
             }
-    
+
             const [address, details, staffs] = await Promise.all([
                 this.getAddressData(hospitalId),
                 this.getHospitalDetailsData(hospitalId),
                 this.getHospitalStaffData(hospitalId)
             ]);
-    
+
             return {
                 hospital,
                 address,
