@@ -11,9 +11,11 @@ class MongoConnect {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       });
+      return true
       console.log('Connected to MongoDB');
     } catch (error) {
       console.error('Error connecting to MongoDB:', error.message);
+      return false;
     }
   }
 

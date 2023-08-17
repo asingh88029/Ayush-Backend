@@ -64,12 +64,14 @@ class Server {
   async start() {
     try {
       // Connect to MongoDB
-      await this.dbConnector.connect();
+      let isConected = await this.dbConnector.connect();
 
-      // Start the server
+      if(isConected){
+              // Start the server
       this.serverInstance = this.app.listen(this.port, () => {
         console.log(`Server is running on port ${this.port}`);
       });
+      }
     } catch (error) {
       console.error('Error connecting to MongoDB:', error.message);
       this.shutdown();
